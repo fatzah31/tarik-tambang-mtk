@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.result-box {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.winner {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2b7a0b;
+}
